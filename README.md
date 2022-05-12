@@ -1,42 +1,34 @@
-# Nuxt 3 Minimal Starter
+# nuxt3-tailwind-example
 
-Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
+## Overview
+
+Nuxt3 で Tailwind CSS を利用するサンプルプログラムです。
+以下の記事を解説するために作成したリポジトリです。
+
+This is an example program that uses Tailwind CSS in Nuxt3.
+This is a repository created to explain the following article.
+
+- [Nuxt3 で Tailwind CSS を使う方法](https://std9.jp/articles/01fq14pxsp4r6nbyzp2txj46ac/)
+
+
+## Requirement
+
+- Node.js (v16.14.2)
+
 
 ## Setup
 
-Make sure to install the dependencies:
+```shell
+# 依存関係のパッケージをインストール
+$ npm i
 
-```bash
-# yarn
-yarn install
+# 開発環境で実行 (http://localhost:3000/)
+$ npm run dev
 
-# npm
-npm install
-
-# pnpm
-pnpm install --shamefully-hoist
+# 本番環境向けにビルド
+$ npm run build
 ```
 
-## Development Server
+## Author
 
-Start the development server on http://localhost:3000
-
-```bash
-npm run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment) for more information.
+[twitter](https://twitter.com/hikaru_firecamp)
